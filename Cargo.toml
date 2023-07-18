@@ -1,0 +1,10 @@
+[package]
+name = "i_mth"
+version = "0.0.0"
+edition = "2021"
+description = "A math library continuously under development made for use in particle and ridgid body dynamics"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
