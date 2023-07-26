@@ -4,6 +4,7 @@ use crate::vector2d::Vector2D;
 
 /// Represents a mathematical vector in 3 Dimensional space.
 #[derive(Debug, PartialEq, Clone, Copy, Default)]
+#[repr(C)]
 pub struct Vector3D {
     pub x: f64,
     pub y: f64,

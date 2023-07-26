@@ -42,7 +42,7 @@
 //! ie **Moment** = **r x F**
 //!
 //! ```rust
-//!    use i_mth::vector2d::Vector2D;
+//!    use i_mth::vector3d::Vector3D;
 //!
 //!    fn main() {
 //!        let f = Vector3D::new(400.0, 693.0, 0.0);
@@ -53,6 +53,8 @@
 //!    }
 //! ```
 //!
+
+pub mod constants;
 
 mod vectors;
 pub use vectors::vector2d;

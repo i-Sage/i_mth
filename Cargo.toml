@@ -1,6 +1,6 @@
 [package]
 name = "i_mth"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 description = "A math library continuously under development made for use in particle and ridgid body dynamics and statics"
 license = "MIT"
