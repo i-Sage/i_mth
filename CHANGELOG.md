@@ -1,9 +1,13 @@
 # Changelog
 
-## 0.1.1 -> Currently in the working
+## 0.1.2 -> Currently in the working
 
 - Support For matrices, operations on matrices, rotations of vectors and vector transformations
 - numerical calculus
+
+## 0.1.1
+
+- fixed path errors
 
 ## 0.1.0
 

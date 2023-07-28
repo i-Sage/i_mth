@@ -1,13 +1,15 @@
 [package]
 name = "i_mth"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 repository = "https://github.com/i-Sage/i_mth"
+documentation = "https://docs.rs/i_mth/0.1.1/i_mth"
 readme = "README.md"
 description = "A math library continuously under development made for use in particle and ridgid body dynamics and statics"
 license = "MIT"
 authors = ["i-Sage <https://github.com/i-Sage>"]
 keywords = ["math", "vectors"]
+categories = ["mathematics"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

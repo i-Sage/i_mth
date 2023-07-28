@@ -14,7 +14,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! i_mth = "0.1.0"
+//! i_mth = "0.1.1"
 //! ```
 //!
 //! ## Current Crate available features
@@ -91,8 +91,8 @@
 //! 
 
 
-pub mod constants;
 pub mod utils;
+pub mod constants;
 
 mod vectors;
 pub use vectors::vector2d;
