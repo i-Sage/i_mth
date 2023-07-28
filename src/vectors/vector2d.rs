@@ -4,6 +4,7 @@ use crate::vector3d::Vector3D;
 
 /// Represents a mathematical vector in 2 dimensional space.
 #[derive(Debug, PartialEq, Clone, Copy, Default)]
+#[repr(C)]
 pub struct Vector2D {
     pub x: f64,
     pub y: f64,
@@ -12,7 +13,7 @@ pub struct Vector2D {
 impl Vector2D {
     /// Returns a new vector with the components passed.\
     /// x is in the direction of the i-unit vector.\
-    /// y is in the direction of the j-unit vector.\
+    /// y is in the direction of the j-unit vector.
     ///
     /// # Example
     ///
@@ -157,7 +158,7 @@ impl Vector2D {
     /// Scales this vector by the passed value and performs vector
     /// addition on this vector and the passed vector.
     #[inline]
-    pub fn scale_add(&self, value: f64, other: Vector2D) -> Vector2D {
+    pub fn scale_add(&self, value: f64, other: Vector2D) -> Self {
         self.scale(value) + other
     }
 

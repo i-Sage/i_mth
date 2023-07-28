@@ -1,13 +1,25 @@
 # Changelog
 
+## 0.1.1 -> Currently in the working
+
+- Support For matrices, operations on matrices, rotations of vectors and vector transformations
+- numerical calculus
+
+## 0.1.0
+
+- Added constants for common mathematical and physical constants.
+- Fixed some non-uniform syntax between Self and Vector3D
+- Added utils.rs
+- Finally learned about semantic versioning
+- Using semantic versioning
+
 ## 0.0.2
 
 - fixed a silly doc-test error
 
 ## 0.0.1
 
-- Add constants for common mathematical and physical constants.
-- Fixed some non-uniform syntax between Self and Vector3D
+- Created the basic layout of the vector module
 
 ## 0.0.0
 

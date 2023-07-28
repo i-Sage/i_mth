@@ -92,7 +92,6 @@ impl Vector3D {
     /// // "j" can be used instead of y
     /// let acc_due_to_gravity = Vector3D::select("y", -9.81);
     /// assert_eq!(-9.81, acc_due_to_gravity.unwrap().y);
-
     #[inline]
     pub fn select(comp: &str, value: f64) -> Option<Vector3D> {
         match comp {
@@ -218,7 +217,7 @@ impl Vector3D {
     /// Scales this vector by the passed value and performs vector
     /// addition on this vector and the passed vector.
     #[inline]
-    pub fn scale_add(&self, value: f64, other: Vector3D) -> Vector3D {
+    pub fn scale_add(&self, value: f64, other: Vector3D) -> Self {
         self.scale(value) + other
     }
     
