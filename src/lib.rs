@@ -14,7 +14,7 @@
 //!
 //! ```toml
 //! [dependencies]
-//! i_mth = "0.1.1"
+//! i_mth = "0.1.2"
 //! ```
 //!
 //! ## Current Crate available features
@@ -23,7 +23,7 @@
 //! 1. Common Constants.
 //! 1. A utils module for calculating escape velocity and acceleration of gravity of other celestial bodies. (other functions will be added in the future).
 //!
-//! ## Currently in the working
+//! ## Currently in the workings
 //!
 //! 1. Support For matrices, operations on matrices, rotations of vectors and vector transformations
 //! 1. Numerical Calculus

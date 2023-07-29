@@ -1,9 +1,14 @@
 # Changelog
 
-## 0.1.2 -> Currently in the working
+## 0.1.3 -> Currently in the working
 
 - Support For matrices, operations on matrices, rotations of vectors and vector transformations
 - numerical calculus
+
+## 0.1.2
+
+- Fixed the error in the version number in README.md
+- Fixed some documentations errors in constants.rs
 
 ## 0.1.1
 

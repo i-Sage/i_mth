@@ -14,7 +14,7 @@ Add this to `Cargo.toml`
 
 ```toml
 [dependencies]
-i_mth = "0.1.0"
+i_mth = "0.1.2"
 ```
 
 ## Current Crate available features
@@ -23,7 +23,7 @@ i_mth = "0.1.0"
 1. Common Constants.
 1. A utils module for calculating escape velocity and acceleration of gravity of other celestial bodies. (other functions will be added in the future).
 
-## Currently in the working
+## Currently in the workings
 
 1. Support For matrices, operations on matrices and transformations
 1. Numerical Calculus
